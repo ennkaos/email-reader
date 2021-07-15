@@ -6,8 +6,8 @@ async function openInbox(cb) {
     await imap.openBox('Inbox', false, cb);
 }
 var imap = new Imap({
-    user: 'bucur.alexandru0106@gmail.com',
-    password: 'memako10',
+    user: '',
+    password: '',
     host: 'imap.gmail.com',
     //imap.mail.yahoo.com - for yahoo
     // imap.yourdomain.ext -for aruba
